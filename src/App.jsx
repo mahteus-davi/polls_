@@ -1,18 +1,12 @@
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
-import RouterApp from './routes';
+import Rodape from './Components/rodape/Rodape';
+import RouterApp from './routes'; // Importe o RouterApp
 
 export default function App() {
-
-
   return (
-    <div className="container">
-      <ToastContainer />
+    <div>
       <RouterApp />
-       
-      </div>
-  
+      <Rodape />
+    </div>
   );
 }
-

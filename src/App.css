@@ -5,6 +5,56 @@
 }
 
 body {
+    display: flex;
     font-family: sans-serif;
+    border-radius: 40px;
+    background: #243880;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
+button {
+
+    margin-top: 40px;
+    display: flex;
+    padding: 16px 20px;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    gap: 18px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #304FAD;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: color 600ms; /* Adiciona a transição ao botão */
+}
+
+button:hover { /* Corrige o seletor hover */
+    background: #2b41d4;
+    color: #fff;
+}
+
+input {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 25px;
+    border-radius: 4px;
+}
+
+
+.toast{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

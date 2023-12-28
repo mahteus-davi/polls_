@@ -1,0 +1,49 @@
+.table {
+    overflow-y: auto;
+    max-height: 400px; /* Ajuste a altura conforme necessário */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+    font-family: 6px;
+}
+
+table {
+    font-size: 1em;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: #304FAD;
+}
+@media (max-width: 600px) {
+    table {
+        font-size: 4px; /* Tamanho menor da fonte para telas pequenas */
+    }
+    th, td {
+        padding: 4px; /* Menor padding */
+    }
+    .hide-on-small {
+        display: none; /* Oculta elementos com esta classe em telas pequenas */
+    }
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: #304FAD; /* Mantenha a cor do fundo para evitar transparência */
+    color: #fff;
+    z-index: 2; /* Para garantir que o cabeçalho fique acima do conteúdo do corpo da tabela */
+}
