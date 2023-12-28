@@ -1,12 +1,14 @@
 import StarRating from "../../Components/Form/StarRating";
+import logo from "../../assets/logo.png";
 import "./Home.css";
+
 
 
 function Header(){
     return (
     <div className="card">
         <header>
-            <img src="../src/assets/logo.png" alt=""  id="mgs"/>
+            <img src={logo} alt=""  id="mgs"/>
         </header>
         <main>
             <h1>Loja Medeiros Galvão Soluções</h1>
