@@ -6,7 +6,7 @@ function Header(){
     return (
     <div className="card">
         <header>
-            <img src="../../src/assets/logo.png" alt=""  id="mgs"/>
+            <img src="../src/assets/logo.png" alt=""  id="mgs"/>
         </header>
         <main>
             <h1>Loja Medeiros Galvão Soluções</h1>
