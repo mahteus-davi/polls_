@@ -11,7 +11,7 @@ function Header(){
             <img src={logo} alt=""  id="mgs"/>
         </header>
         <main>
-            <h1>Loja Medeiros Galvão Soluções</h1>
+            <h1>Bem Vindo à Azafe For Men</h1>
             <span>O que você achou da sua experiência?
 
 
